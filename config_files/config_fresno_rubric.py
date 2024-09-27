@@ -34,7 +34,7 @@ PHASES = {
         "name": "course_details",
         "fields": {
             "course_name": {
-                "type": "text",
+                "type": "text_input",
                 "label": "What is the name of your course?",
             },
             "course_about": {
