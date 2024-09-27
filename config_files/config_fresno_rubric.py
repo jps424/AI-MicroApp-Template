@@ -44,13 +44,12 @@ PHASES = {
             “audience”: {
                 "type": "selectbox",
                 "label": "Who is your intended audience?",
- 			"options": ["Middle School", "Highschool", "University"]
+ 			            "options": ["Middle School", "Highschool", "University"]
             }
         },
         "phase_instructions": "",
-        "user_prompt": “I am building a course {course_name} for {audience} students. I will share details about the course below. Please generate a detailed outline for this course with four modules, learning objectives, a list of suggested content tagged to learning objectives, and ideas for online assessments. My course is about: {course_about}”,
+        "user_prompt": "I am building a course {course_name} for {audience} students. I will share details about the course below. Please generate a detailed outline for this course with four modules, learning objectives, a list of suggested content tagged to learning objectives, and ideas for online assessments. My course is about: {course_about}",
         "show_prompt": True,
-
     }
 }
 
