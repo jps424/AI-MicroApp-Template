@@ -30,18 +30,18 @@ HTML_BUTTON = {
 SYSTEM_PROMPT = ""
 
 PHASES = {
-    “phase1”: {
+    "phase1": {
         "name": "course_details",
         "fields": {
-            “course_name”: {
+            "course_name": {
                 "type": "text",
                 "label": "What is the name of your course?",
             },
-            “course_about”: {
+            "course_about": {
                 "type": "text_area",
                 "label": "What is your course about? Enter as little or as much text as you want.",
             },
-            “audience”: {
+            "audience": {
                 "type": "selectbox",
                 "label": "Who is your intended audience?",
  			            "options": ["Middle School", "Highschool", "University"]
